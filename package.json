@@ -1,0 +1,32 @@
+{
+  "name": "mulehacks26",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ademerdogan2008/MuleHacks26.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ademerdogan2008/MuleHacks26/issues"
+  },
+  "homepage": "https://github.com/ademerdogan2008/MuleHacks26#readme",
+  "dependencies": {
+    "lucide-react": "^1.51.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.2"
+  }
+}

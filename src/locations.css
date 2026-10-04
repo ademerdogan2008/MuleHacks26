@@ -1,0 +1,20 @@
+.location-label{display:flex;align-items:center;gap:5px;color:#b9accf;font-size:12px;line-height:1.5;overflow-wrap:anywhere;min-width:0}
+.location-label svg{flex-shrink:0}
+.card-info .location-label{margin:6px 0 9px;font-size:11px}
+.mini-profile .location-label{margin:4px 0}
+.profile-identity-copy .location-label{margin:6px 0;font-size:14px}
+.connect-location{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;color:#b9accf;font-size:12px;margin:12px 0 18px}
+.connect-location>span{display:flex;align-items:center;gap:6px}
+.connect-location button{color:#d3b8ff;font-size:12px;text-decoration:underline;text-underline-offset:3px}
+.location-picker{min-width:0}
+.location-picker>label{display:block;margin-bottom:8px;color:#a4a5b2;font-size:12px}
+.location-picker>input{width:100%}
+.location-picker ul{padding:4px;margin:6px 0 0;list-style:none;background:#171923;border:1px solid #3a3c4b;border-radius:8px;max-height:190px;overflow:auto}
+.location-picker li button{display:block;width:100%;text-align:left;padding:10px;border-radius:5px}
+.location-picker li[aria-selected=true] button,.location-picker li button:hover{background:#352451}
+.location-picker li small{display:block;color:#a4a5b2;font-size:10px;margin:3px 0 0 18px}
+.location-picker .location-help{font-size:11px;color:#b9accf;line-height:1.5;margin:8px 0 4px}
+.location-attribution{color:#9293a2;font-size:10px}
+.location-attribution a{color:#c4a6fa}
+.empty-state .primary{margin:15px auto 0}
+@media(max-width:580px){.card-info .location-label{font-size:10px}.profile-identity-copy .location-label{font-size:12px}.connect-location{font-size:11px}}

@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Jett",
+    "game": "Valorant",
+    "image": "/images/characters/jett.png",
+    "source": "https://playvalorant.com/en-us/agents/jett/",
+    "downloadUrl": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/fullportrait.png",
+    "sha256": "4b103d4002ec803d0905a53b18ad1f7a37daf05a45dbfb37b1008345b83f6d10"
+  },
+  {
+    "name": "Reyna",
+    "game": "Valorant",
+    "image": "/images/characters/reyna.png",
+    "source": "https://playvalorant.com/en-us/agents/reyna/",
+    "downloadUrl": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png",
+    "sha256": "dda6192a4354cc7924e97d1a8941f69df1a82aeffa74bdfedffa6bc4abdc5d88"
+  },
+  {
+    "name": "Sage",
+    "game": "Valorant",
+    "image": "/images/characters/sage.png",
+    "source": "https://playvalorant.com/en-us/agents/sage/",
+    "downloadUrl": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/fullportrait.png",
+    "sha256": "9aeed282ee46d7a46f1ad21e455f998d948f022c74ea47aa1a88395b29d279b2"
+  },
+  {
+    "name": "Omen",
+    "game": "Valorant",
+    "image": "/images/characters/omen.png",
+    "source": "https://playvalorant.com/en-us/agents/omen/",
+    "downloadUrl": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/fullportrait.png",
+    "sha256": "2e441ed5abe0bcbd8a0a798fa19f03fd8e6abd94bf9d93eb074ff3810122217d"
+  },
+  {
+    "name": "Raze",
+    "game": "Valorant",
+    "image": "/images/characters/raze.png",
+    "source": "https://playvalorant.com/en-us/agents/raze/",
+    "downloadUrl": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/fullportrait.png",
+    "sha256": "b2104cb01fde715583df1f664e4894043f0934636a2f967e98610afd1fff9751"
+  },
+  {
+    "name": "Sova",
+    "game": "Valorant",
+    "image": "/images/characters/sova.png",
+    "source": "https://playvalorant.com/en-us/agents/sova/",
+    "downloadUrl": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/fullportrait.png",
+    "sha256": "c44e404ccd4f6f957df737818264aa9213bb7649cb1b6b2377e4ca84028a5990"
+  },
+  {
+    "name": "Killjoy",
+    "game": "Valorant",
+    "image": "/images/characters/killjoy.png",
+    "source": "https://playvalorant.com/en-us/agents/killjoy/",
+    "downloadUrl": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/fullportrait.png",
+    "sha256": "29e4d63ee7bde75f8d537ade4d358334ce2af959db3dc4767678a8ac1e6b2e8e"
+  },
+  {
+    "name": "Viper",
+    "game": "Valorant",
+    "image": "/images/characters/viper.png",
+    "source": "https://playvalorant.com/en-us/agents/viper/",
+    "downloadUrl": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/fullportrait.png",
+    "sha256": "341523b31be642541dcf2c61c066bd531d05a950558bf4dbde3cd64e6468948c"
+  },
+  {
+    "name": "Cypher",
+    "game": "Valorant",
+    "image": "/images/characters/cypher.png",
+    "source": "https://playvalorant.com/en-us/agents/cypher/",
+    "downloadUrl": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/fullportrait.png",
+    "sha256": "7804cd71ecd155c336f5443835eee1b3a8ccf9b3ef0857826eb991c50520f0b9"
+  },
+  {
+    "name": "Phoenix",
+    "game": "Valorant",
+    "image": "/images/characters/phoenix.png",
+    "source": "https://playvalorant.com/en-us/agents/phoenix/",
+    "downloadUrl": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/fullportrait.png",
+    "sha256": "391c18a4017c420f7d71af707d4c265f091c3354f05bce5baa482d0155859b34"
+  },
+  {
+    "name": "Yoru",
+    "game": "Valorant",
+    "image": "/images/characters/yoru.png",
+    "source": "https://playvalorant.com/en-us/agents/yoru/",
+    "downloadUrl": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/fullportrait.png",
+    "sha256": "a56aa987abea755b313931a9d34d7291f6ab76847295b1743970826148f287c7"
+  },
+  {
+    "name": "Neon",
+    "game": "Valorant",
+    "image": "/images/characters/neon.png",
+    "source": "https://playvalorant.com/en-us/agents/neon/",
+    "downloadUrl": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/fullportrait.png",
+    "sha256": "4dd729d4bfbceb16e1d13be5c96cb4c48924a7f9989201aa99de1e77fbb3a7d6"
+  },
+  {
+    "name": "Ahri",
+    "game": "League of Legends",
+    "image": "/images/characters/ahri.png",
+    "source": "https://wiki.leagueoflegends.com/en-us/File:Ahri_Render.png",
+    "downloadUrl": "https://wiki.leagueoflegends.com/en-us/images/thumb/Ahri_Render.png/600px-Ahri_Render.png",
+    "sha256": "53f99e613bb16edfd2d80c1e081fac4599cc8464c0caeea1fdc73fc9ab34d0b5"
+  },
+  {
+    "name": "Jinx",
+    "game": "League of Legends",
+    "image": "/images/characters/jinx.png",
+    "source": "https://wiki.leagueoflegends.com/en-us/File:Jinx_Render.png",
+    "downloadUrl": "https://wiki.leagueoflegends.com/en-us/images/thumb/Jinx_Render.png/600px-Jinx_Render.png",
+    "sha256": "02ea35401fd09fb6f942be2485895cc9931a992eff54d9735f999dd976b750fb"
+  },
+  {
+    "name": "Yasuo",
+    "game": "League of Legends",
+    "image": "/images/characters/yasuo.png",
+    "source": "https://wiki.leagueoflegends.com/en-us/File:Yasuo_Render.png",
+    "downloadUrl": "https://wiki.leagueoflegends.com/en-us/images/thumb/Yasuo_Render.png/600px-Yasuo_Render.png",
+    "sha256": "58a614291751e486760bc43c49eb88402e3f9df54d39c8082364ce7d2bed3df5"
+  },
+  {
+    "name": "Lux",
+    "game": "League of Legends",
+    "image": "/images/characters/lux.png",
+    "source": "https://wiki.leagueoflegends.com/en-us/File:Lux_Render.png",
+    "downloadUrl": "https://wiki.leagueoflegends.com/en-us/images/thumb/Lux_Render.png/600px-Lux_Render.png",
+    "sha256": "f19807b23e0f85d5ad3aae28a1204a6d29af3ed5f2558b7f6d943012f6d83df7"
+  },
+  {
+    "name": "Akali",
+    "game": "League of Legends",
+    "image": "/images/characters/akali.png",
+    "source": "https://wiki.leagueoflegends.com/en-us/File:Akali_Render.png",
+    "downloadUrl": "https://wiki.leagueoflegends.com/en-us/images/thumb/Akali_Render.png/600px-Akali_Render.png",
+    "sha256": "b6a20118f372c038e16dfd4cad9c8391d58282ffad3077366a245b53b69c62e7"
+  },
+  {
+    "name": "Caitlyn",
+    "game": "League of Legends",
+    "image": "/images/characters/caitlyn.png",
+    "source": "https://wiki.leagueoflegends.com/en-us/File:Caitlyn_Render.png",
+    "downloadUrl": "https://wiki.leagueoflegends.com/en-us/images/thumb/Caitlyn_Render.png/600px-Caitlyn_Render.png",
+    "sha256": "a8278bb082bfe47e2d9a40afe86e69afdc8640e7874164cd8ddabb0ec72ae8e6"
+  },
+  {
+    "name": "Ezreal",
+    "game": "League of Legends",
+    "image": "/images/characters/ezreal.png",
+    "source": "https://wiki.leagueoflegends.com/en-us/File:Ezreal_Render.png",
+    "downloadUrl": "https://wiki.leagueoflegends.com/en-us/images/thumb/Ezreal_Render.png/600px-Ezreal_Render.png",
+    "sha256": "7625122fbb3bfa3440f37c9171243db86aa9280e02f627c349e65d389b1654d0"
+  },
+  {
+    "name": "Lee Sin",
+    "game": "League of Legends",
+    "image": "/images/characters/lee-sin.png",
+    "source": "https://wiki.leagueoflegends.com/en-us/File:Lee_Sin_Render.png",
+    "downloadUrl": "https://wiki.leagueoflegends.com/en-us/images/thumb/Lee_Sin_Render.png/600px-Lee_Sin_Render.png",
+    "sha256": "7a0bf3815a0d2c43719c4df41b26a7a33013042dd29ecb2cf09b8ddab5dd7a5b"
+  },
+  {
+    "name": "Miss Fortune",
+    "game": "League of Legends",
+    "image": "/images/characters/miss-fortune.png",
+    "source": "https://wiki.leagueoflegends.com/en-us/File:Miss_Fortune_Render.png",
+    "downloadUrl": "https://wiki.leagueoflegends.com/en-us/images/thumb/Miss_Fortune_Render.png/600px-Miss_Fortune_Render.png",
+    "sha256": "c5ac4a71a78c1207d1d6e1a4d7cc833d950dfcd23308577579779defc6aed5ea"
+  },
+  {
+    "name": "Ashe",
+    "game": "League of Legends",
+    "image": "/images/characters/ashe.png",
+    "source": "https://wiki.leagueoflegends.com/en-us/File:Ashe_Render.png",
+    "downloadUrl": "https://wiki.leagueoflegends.com/en-us/images/thumb/Ashe_Render.png/600px-Ashe_Render.png",
+    "sha256": "eff070eacb6e463cdb4e9d476a4323fc720c2b634f9e9bfbea0c5030e7a226a0"
+  },
+  {
+    "name": "Zed",
+    "game": "League of Legends",
+    "image": "/images/characters/zed.png",
+    "source": "https://wiki.leagueoflegends.com/en-us/File:Zed_Render.png",
+    "downloadUrl": "https://wiki.leagueoflegends.com/en-us/images/thumb/Zed_Render.png/600px-Zed_Render.png",
+    "sha256": "c15fc6239dd804acfd49c45cad6dc42a874b6403aa9be2c28a4fdb24e8cce861"
+  },
+  {
+    "name": "Yone",
+    "game": "League of Legends",
+    "image": "/images/characters/yone.png",
+    "source": "https://wiki.leagueoflegends.com/en-us/File:Yone_Render.png",
+    "downloadUrl": "https://wiki.leagueoflegends.com/en-us/images/thumb/Yone_Render.png/600px-Yone_Render.png",
+    "sha256": "d7e905f24917ad1fbe1510f4694e73706d2528cea64cf2e277e1252a4239db49"
+  }
+]
