@@ -3,7 +3,7 @@ import {KANSAS_CITY_CENTER, EVENT_RADIUS_MILES, EVENT_WINDOW_DAYS, geohash, near
 
 export function createEventsHandler(env=process.env, fetcher=fetch) {
  const cache=new Map(),cityFeeds=new Map();
- const read=async endpoint=>{const response=await fetcher(endpoint,{signal:AbortSignal.timeout(12000),headers:{'User-Agent':'Sidequest-LocalEvents/1.0'}});if(!response.ok)throw new Error('Provider unavailable');return response.json();};
+ const read=async endpoint=>{const response=await fetcher(endpoint,{signal:AbortSignal.timeout(12000),headers:{'User-Agent':'SocialQueue-LocalEvents/1.0'}});if(!response.ok)throw new Error('Provider unavailable');return response.json();};
  return async function eventsHandler(req,res,next) {
   const url=new URL(req.url,'http://localhost');
   if(url.pathname!=='/api/events'){next?.();return;}

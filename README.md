@@ -1,4 +1,4 @@
-# Sidequest
+# SocialQueue
 
 A gaming connection app built with React and Vite.
 
