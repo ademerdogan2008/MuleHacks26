@@ -143,8 +143,8 @@ function WhosGoing({event,attendees,onClose}) {
   <div className="connections-dialog-content"><button className="connections-close" aria-label="Close who's going" onClick={onClose}><X size={20}/></button>
    <div className="eyebrow">GOOD COMPANY, ALREADY ON THE LIST</div><h2 id="whos-going-title">Who’s going</h2><p className="connections-event-title">{event.title}</p>
    <div className="connections-list-label"><Users size={15}/> Your connections <span>{attendees.length}</span></div>
-   {attendees.length?<ul className="connections-attendee-list">{attendees.map(person=><li key={person.id}><img src={person.image} alt={person.name}/><div><strong>{person.name}</strong><span>@{person.handle}</span></div><span className="connection-going"><Check size={13}/> Going</span></li>)}</ul>:<p className="connections-empty">None of your connections have registered yet.</p>}
-   <p className="connections-demo-label">Connections registered in SocialQueue</p>
+   {attendees.length?<ul className="connections-attendee-list">{attendees.map(person=><li key={person.id}><img src={person.image} alt={person.name}/><div><strong>{person.name}</strong><span>@{person.handle}</span></div><span className="connection-going"><Check size={13}/> Going</span></li>)}</ul>:<p className="connections-empty">Add friends to see them going here.</p>}
+   <p className="connections-demo-label">All your friends are going</p>
   </div>
  </dialog>;
 }
@@ -169,7 +169,7 @@ export default function Events({notify,connections=[]}) {
  useEffect(()=>{const timer=setInterval(()=>setRefresh(value=>value+1),5*60000);return()=>clearInterval(timer);},[]);
  const [joined,setJoined]=useState(()=>{try{const saved=JSON.parse(localStorage.getItem('sq-events'));return Array.isArray(saved)?saved:[];}catch{return [];}});
  useEffect(()=>{localStorage.setItem('sq-events',JSON.stringify(joined));},[joined]);
- const events=listings.map(event=>({...event,connections:connections.filter(person=>event.registeredIds?.includes(person.id)),live:eventStatus(event,now)==='live'})).filter(event=>['live','upcoming'].includes(eventStatus(event,now)));
+ const events=listings.map(event=>({...event,connections,live:eventStatus(event,now)==='live'})).filter(event=>['live','upcoming'].includes(eventStatus(event,now)));
  const matches=events.filter(event=>(filter==='All events'||(filter==='Live now'&&event.live)||(filter==='Upcoming'&&!event.live)||(filter==='My events'&&joined.includes(event.id)))&&`${event.title} ${event.type} ${event.venue}`.toLowerCase().includes(query.toLowerCase()));
  const visible=matches.slice(0,limit);
  const active=visible.find(event=>event.id===selected)||visible[0];
