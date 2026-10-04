@@ -25,3 +25,16 @@
 @media(max-width:580px){.event-photo{height:170px}}
 .event-load-more{width:100%;justify-content:center;padding:14px;margin-top:18px}.event-load-more~.event-empty{margin-top:16px}
 .location-lock{display:flex;align-items:center;gap:8px;padding:12px 15px;border:1px solid #514063;border-radius:9px;background:#292333;color:#d3b8ff;font-size:11px;white-space:nowrap}.location-lock svg{flex-shrink:0}
+.map-zoom-controls{position:absolute;right:12px;top:12px;z-index:3;display:flex;flex-direction:column;align-items:flex-end;gap:6px}.map-zoom-controls button{display:flex;align-items:center;gap:7px;padding:10px 12px;border:1px solid #695080;border-radius:8px;background:#20222ef2;color:#e3d2ff;font-size:11px;box-shadow:0 3px 12px #0005}.map-zoom-controls button:disabled{color:#a4a5b2;border-color:#45414f;cursor:default}.map-zoom-controls button:focus-visible{outline:2px solid #b18cf8;outline-offset:3px}.event-preview{cursor:grab;touch-action:none;user-select:none}.event-preview.dragging{cursor:grabbing}.event-preview>svg{overflow:visible;pointer-events:none;transform-origin:center}.event-preview .preview-neighborhood,.event-preview .preview-water,.event-preview .you-pin{pointer-events:none}.event-preview .preview-water{right:auto;white-space:nowrap}.event-preview:focus-visible{outline:2px solid #b18cf8;outline-offset:-3px}
+
+/* Keep organizer artwork and friend counts attached to every map marker. */
+.event-pin,.live-event-pin{width:56px;height:56px;position:absolute;padding:0;overflow:visible;border-radius:14px;cursor:pointer}
+.live-event-pin{position:relative}
+.map-event-thumbnail{display:grid;place-items:center;width:100%;height:100%;border-radius:11px;overflow:hidden}
+.map-event-thumbnail img{display:block;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.map-friends-badge{position:absolute;top:-9px;right:-10px;min-width:24px;height:23px;padding:0 5px;display:flex;align-items:center;justify-content:center;border:2px solid #20222e;border-radius:8px;background:#275d48;color:#c2ffdb;font-size:10px;font-weight:750;line-height:1;box-shadow:0 2px 7px #0006;pointer-events:none}
+.map-marker-live{position:absolute;bottom:-4px;left:-4px;width:11px;height:11px;border:2px solid #20222e;border-radius:50%;background:#65dfba;pointer-events:none}
+.event-pin.selected{z-index:2}.event-pin:focus-visible,.live-event-pin:focus-visible{outline:3px solid white;outline-offset:4px}
+.map-callout-image{width:64px;height:64px;border-radius:11px}.map-callout-image .map-event-thumbnail{border-radius:inherit}
+
+.event-organizer:focus{outline:2px solid #b18cf8;outline-offset:3px}
