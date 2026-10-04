@@ -121,3 +121,16 @@ export const characters = [
     "image": "/images/characters/yone.png"
   }
 ];
+
+// Keep unique character backgrounds separate from each player's avatar.
+export const playerImages = characters.map((character, index) => {
+  const avatar = characters[(index + 1) % characters.length];
+  return {
+    backgroundImage: character.image,
+    backgroundCharacter: character.name,
+    backgroundGame: character.game,
+    ...(index < 20 && index % 2 === 0
+      ? {image: `/images/profiles/reference-${String(index / 2 + 1).padStart(2, '0')}.png`}
+      : {image: avatar.image, character: avatar.name, characterGame: avatar.game})
+  };
+});

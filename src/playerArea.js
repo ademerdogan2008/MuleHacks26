@@ -1,0 +1,30 @@
+// Demo player city centers in the Kansas City metro; these are not real user records.
+export const KANSAS_CITY_LOCATION = {
+  city: 'Kansas City', state: 'MO', latitude: 39.09973, longitude: -94.57857,
+};
+export const playerLocations = [
+  KANSAS_CITY_LOCATION,
+  {city: 'Independence', state: 'MO', latitude: 39.09112, longitude: -94.41551},
+  {city: "Lee's Summit", state: 'MO', latitude: 38.91084, longitude: -94.38217},
+  {city: 'Blue Springs', state: 'MO', latitude: 39.01695, longitude: -94.28161},
+  {city: 'Liberty', state: 'MO', latitude: 39.24611, longitude: -94.41912},
+  {city: 'Gladstone', state: 'MO', latitude: 39.20389, longitude: -94.55468},
+  {city: 'Raytown', state: 'MO', latitude: 38.99528, longitude: -94.46356},
+  {city: 'Grandview', state: 'MO', latitude: 38.88584, longitude: -94.53301},
+  {city: 'Belton', state: 'MO', latitude: 38.81195, longitude: -94.53190},
+  {city: 'Raymore', state: 'MO', latitude: 38.80195, longitude: -94.45273},
+  {city: 'North Kansas City', state: 'MO', latitude: 39.13000, longitude: -94.56218},
+  {city: 'Parkville', state: 'MO', latitude: 39.19500, longitude: -94.68218},
+  {city: 'Platte City', state: 'MO', latitude: 39.37028, longitude: -94.78246},
+  {city: 'Smithville', state: 'MO', latitude: 39.38695, longitude: -94.58107},
+  {city: 'Kearney', state: 'MO', latitude: 39.36778, longitude: -94.36217},
+  {city: 'Excelsior Springs', state: 'MO', latitude: 39.33917, longitude: -94.22606},
+  {city: 'Overland Park', state: 'KS', latitude: 38.98223, longitude: -94.67079},
+  {city: 'Olathe', state: 'KS', latitude: 38.88140, longitude: -94.81913},
+  {city: 'Shawnee', state: 'KS', latitude: 39.04167, longitude: -94.72024},
+  {city: 'Lenexa', state: 'KS', latitude: 38.95362, longitude: -94.73357},
+  {city: 'Kansas City', state: 'KS', latitude: 39.11417, longitude: -94.62746},
+  {city: 'Leawood', state: 'KS', latitude: 38.96667, longitude: -94.61690},
+  {city: 'Leavenworth', state: 'KS', latitude: 39.31111, longitude: -94.92246},
+  {city: 'Lawrence', state: 'KS', latitude: 38.97167, longitude: -95.23525},
+];
